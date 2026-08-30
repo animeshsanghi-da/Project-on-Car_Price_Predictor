@@ -1,0 +1,15 @@
+streamlit
+pandas
+numpy
+scikit-learn
+joblib
+
+# =====================================================================
+# 👨‍💻 Author: Animesh Sanghi
+# =====================================================================
+# Title:    Google Certified Data Analyst | MBA '28 MUJ
+# Phone:    9406570600
+# Email:    animeshsanghi.da@gmail.com
+# LinkedIn: https://www.linkedin.com/in/animeshsanghi-da/
+# GitHub:   https://github.com/animeshsanghi-da
+# =====================================================================
