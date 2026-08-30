@@ -16,11 +16,7 @@
 **Contact:** [animeshsanghi.da@gmail.com](mailto:animeshsanghi.da@gmail.com) | 9406570600  
 **LinkedIn:** [animeshsanghi-da](https://www.linkedin.com/in/animeshsanghi-da/) | **GitHub:** [animeshsanghi-da](https://github.com/animeshsanghi-da)
 
----
-
 CarPrice AI is an end-to-end machine learning web application built using **Python**, **VSCode**, **Anaconda**, **Scikit-Learn**, and **Streamlit**. The app enables users to input car specifications (brand, year, KM driven, fuel type, transmission, previous owners, engine capacity, mileage, max power, and number of seats) and get smooth, real-time market price estimations.
-
----
 
 ## 📌 Features
 
@@ -28,8 +24,6 @@ CarPrice AI is an end-to-end machine learning web application built using **Pyth
 - **Continuous Sensitivity & Smooth Scaling**: Built using **Ridge Regression on Log-Transformed Prices** ($\log(1+y)$) to guarantee that every single UI adjustment (e.g., adding 1 seat or altering mileage) immediately updates the predicted price without staircasing artifacts.
 - **Interactive UI**: Clean, custom-styled interface built using Streamlit and custom CSS (`style.py`).
 - **Data & Model Metrics**: Displays real-time dataset rows and column shapes along with an expandable dataset viewer.
-
----
 
 ## 📁 Directory Structure
 
@@ -45,8 +39,6 @@ car_price_predictor/
 └── README.md                 # Project documentation
 ```
 
----
-
 ## 🛠️ Technology Stack & Libraries
 
 - **Environment**: Anaconda (Python 3.10)
@@ -55,8 +47,6 @@ car_price_predictor/
 - **Data Processing**: Pandas, NumPy
 - **Machine Learning**: Scikit-Learn (`ColumnTransformer`, `OneHotEncoder`, `StandardScaler`, `Ridge`)
 - **Model Serialization**: Joblib
-
----
 
 ## ⚙️ Installation & Setup
 
@@ -81,8 +71,6 @@ cd car_price_predictor
 pip install -r requirements.txt
 ```
 
----
-
 ## 🚀 Execution Workflow
 
 ### Step 1: Train the Machine Learning Model
@@ -101,8 +89,6 @@ Launch the interactive dashboard:
 streamlit run app.py
 ```
 
----
-
 ## 🧠 Machine Learning Architecture
 
 ### 1. Target Log-Transformation
@@ -119,8 +105,6 @@ Unlike tree-based models (`RandomForest` or `GradientBoosting`) that group numbe
 - **What:** We trained a **Ridge Regression** model on log-transformed car prices (`np.log1p`). 
 - **Why:** Decision trees group numbers into discrete "bins," which causes price updates to freeze when you make minor UI changes (like adding 1 seat or 1,000 km). Ridge Regression fits a smooth, continuous mathematical surface, ensuring every single slider adjustment instantly reflects a realistic price shift while avoiding model overfitting.
 - **How:** A 120,000-row dataset is passed through a Scikit-Learn `Pipeline`. Categorical features (brand, fuel, transmission) are converted into binary columns via `OneHotEncoder`, numeric inputs (mileage, engine, seats) are standardized using `StandardScaler`, and the Ridge model learns the underlying log-scale price weights. At prediction time, outputs are converted back to standard rupee values using `np.expm1`.
-
----
 
 ## 📝 License
 
