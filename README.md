@@ -2,9 +2,9 @@
 
 CarPrice AI is a **Python-based end-to-end machine learning web application** that provides real-time market price valuations for used cars based on user-input vehicle specifications.
 
-The project utilizes Scikit-Learn to train a continuous Ridge Regression pipeline on log-transformed car prices ($\log(1+y)$), delivering continuous sensitivity and smooth price scaling without staircasing artifacts through an interactive Streamlit interface.
+The project utilizes Scikit-Learn to train a continuous Ridge Regression pipeline on log-transformed car prices ( $\log(1+y)$ ), delivering continuous sensitivity and smooth price scaling without staircasing artifacts through an interactive Streamlit interface.
 
-![](APP-1.png)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)  [![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)  [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io/)  [![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/)  [![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org/)  [![Joblib](https://img.shields.io/badge/Joblib-4BA2C5?style=for-the-badge&logo=python&logoColor=white)](https://joblib.readthedocs.io/)  [![Anaconda](https://img.shields.io/badge/Anaconda-44A833?style=for-the-badge&logo=anaconda&logoColor=white)](https://www.anaconda.com/)  [![Visual Studio Code](https://img.shields.io/badge/VS_Code-0078D4?style=for-the-badge&logo=visual-studio-code&logoColor=white)](https://code.visualstudio.com/)
 
 ## Project Features
 
@@ -160,8 +160,9 @@ This project is created for machine learning deployment and educational purposes
 
 **Name:** Animesh Sanghi  
 **Profession:** Google Certified Data Analyst  
-[LinkedIn](https://www.linkedin.com/in/animeshsanghi-da/) | [GitHub](https://github.com/animeshsanghi-da)  
-Email: animeshsanghi.da@gmail.com
+**LinkedIn:** [linkedin.com/animeshsanghi-da](https://www.linkedin.com/in/animeshsanghi-da/)
+**GitHub:** [github.com/animeshsanghi-da](https://github.com/animeshsanghi-da)  
+**Email:** animeshsanghi.da@gmail.com
 
 ## Project Status
 
